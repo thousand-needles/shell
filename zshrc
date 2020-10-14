@@ -208,6 +208,6 @@ zstyle ':completion:*:*sh:*:' tag-order files
 #PROMPT="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[green]%}%1|%~ %{$reset_color%}%#>"
 PROMPT="[%{$c[green]%}%32<..<%~%{$c[reset]%}]# "
 #在行末显示上一命令的返回状态
-RPROMPT="[%{$c_bold$c[yellow]%}%?%{$c_reset%}]"
+RPROMPT="[%{$c[bold]$c[yellow]%}%?%{$c[reset]%}]"
 
 export LESSCHARSET=utf-8
